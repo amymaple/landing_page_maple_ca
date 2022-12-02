@@ -31,6 +31,26 @@
     color: black;
     background: #fff;
 }
+/*************************************/
+
+.mailBtn {
+    background: gray;
+}
+
+.mailBtn:before {
+    font-family: "FontAwesome";
+    content: "\f0e0";
+    /* add linkedin icon */
+}
+
+.mailBtn:hover {
+    color: black;
+    background: #fff;
+}
+
+
+/*************************************/
+
 
 .smGlobalBtn {
     /* global button class */
