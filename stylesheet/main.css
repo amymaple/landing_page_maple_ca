@@ -84,3 +84,14 @@ hr {
     justify-content: center;
     align-items: center;
 }
+/*************************************/
+/*hover text */
+.navbar-nav > li:hover {
+    text-decoration: underline ;  
+}
+
+/*******/
+.vcenter-item{
+    display: flex;
+    align-items: center;
+}
