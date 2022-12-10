@@ -24,6 +24,21 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="stylesheet/main.css" />
+
+    <!--***************************************************************************-->
+    <!-- g fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+
+
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script> -->
+
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+     
   </head>
   <body>
     <!-- 
@@ -40,43 +55,46 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#experience_section">
                 <h3>Experience</h3>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#project_section">
                 <h3>Projects</h3>
               </a>
             </li>
-          </ul>
+          
+        </ul>
+         <ul class="nav navbar-nav navbar-right"> 
+            <li  style="text-decoration: none ;"  >
+                <a class="nav-link">
+                    <h3>Amy Carolina Maple</h3>
+                </a>
+            </li> 
+        </ul>   
+
         </div>
       </nav>
 
-      <section class="text-center" style="color:white">
-        <div class="container">
-          <div class="my-1">
-            <h1>Amy Carolina Maple</h1>
-            <h2>Kitimat BC, Canada</h2>
-            <h2>Software developer, Montmorency CEGEP, Laval, Qc</h2>
-          </div>
-        </div>
-      </section>
     </div>
 
+
+
+     
     <!-- Have some snap scrolls and some images  -->
     <!-- ***********************************************************-->
  
 
 
     <div class="container">
-        <div class="row my-5">
-            <div class="col  my-auto" >
+        <div class="row my-5 block"  >
+            <div class="col  my-auto"  >
                 <h1><b>About me</b></h1>
                 <p>I am a full stack web developer based in Kitimat BC</p>
-            </div> 
-            
-            <div class="col ms-5"  >
+                <p>Studied software development, Montmorency CEGEP, Laval, Qc</p>
+            </div>
+            <div class="col ms-5  my-auto"  >
                 <img class="card-img-top" style="border-radius: 17px;" src="img/kitimat.jpg" alt="Card image cap">  
             </div>
         </div>
@@ -85,13 +103,10 @@
 
 
 
-    
 
-    <div class="container">
-        <div class="row my-5">
-
-            
-            <div class="col ms-5"  >
+    <div class="container reveal">
+        <div class="row my-5 block" >
+            <div class="col ms-5  my-auto"  >
                 <img class="card-img-top" style="border-radius: 17px;" src="img/coding_languages.webp" alt="Card image cap">  
             </div>
             <div class="col  my-auto" >
@@ -122,9 +137,9 @@
 
 
 
-    
-    <div class="container">
-        <div class="row my-5">
+     
+    <div class="container reveal">
+        <div class="row my-5 block" >
 
             <div class="col  my-auto" >
                 <h2><b>Tools </b></h2>
@@ -143,11 +158,9 @@
                 </ul>
             </div>  
             
-            <div class="col ms-5"  >
+            <div class="col ms-5  my-auto"  >
                 <img class="card-img-top" style="border-radius: 17px;" src="img/coding.jpg" alt="Card image cap">  
             </div>
-            
-            
         </div>
     </div>
 
@@ -163,7 +176,7 @@
       <div class="container">
         <div class="my-1">
           <h2><b>Other knowledge </b></h2>
-          <p>Github, SCRUM, French, spanish</p>
+          <p>Github, SCRUM, French, Spanish</p>
         </div>
       </div>
     </section>
@@ -180,23 +193,45 @@
       </div>
     </section>
 
-    <section style="background-color: white">
+    <section class="text-center" style="background-color: white" id="experience_section">
       <div class="container">
         <div class="my-5">
-          <h1>Previous work experience</h1>
+            <h2><b>Eperience</b></h2> 
           <p>
-            Emili.net : Worked as a junior web developer in web services company
-            that services pet shelters around Canada
+            Emili.net : Worked as a web developer in a web services company
+            that services pet shelters (2020 - present) 
           </p>
         </div>
       </div>
     </section>
 
 
+
+    
+    <section class="text-center" style="background-color: white" id="project_section">
+        <div class="container">
+            <div class="my-5">
+                <h2><b>Projects</b></h2> 
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates 
+                    sunt accusamus facere nesciunt nihil odio possimus eos optio est vel, a 
+                    neque hic maiores deserunt ab, obcaecati quaerat, nemo labore?
+                </p>
+            </div>
+        </div>
+    </section>
+  
+
+
+
+
+
+
+
     <section style="background-color: rgb(224, 176, 184)">
       <div class="container">
         <div class="my-1">
-          <h2><b>My social media</b></h2>
+          <h3><b>Contact me!</b></h3>
           <div
             class="d-flex justify-content-center align-items-center"
             style="height: 100px">
@@ -224,12 +259,7 @@
         <p class="mb-0">"It does not matter how slowly you go, as long as you don't stop"</p>
         <footer class="blockquote-footer">-Confucius </footer>
     </blockquote> -->
-    <!-- ***********************************************************-->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
+    <!-- ***********************************************************--> 
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -240,6 +270,10 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+
+     
+    <script src="js/main.js" ></script> 
+
   </body>
 </html>
 <!-- 

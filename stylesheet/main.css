@@ -95,3 +95,30 @@ hr {
     display: flex;
     align-items: center;
 }
+/*************************************/ 
+h1{
+    font-size: 48px;
+    font-family: 'Secular One', sans-serif;
+}
+h2{
+    font-size: 48px;
+    font-family: 'Secular One', sans-serif;
+}
+h3{
+    font-size: 30px;
+    font-family: 'Secular One', sans-serif;
+}
+
+/*************************************/ 
+
+.block{
+    height: 600px;
+}
+/*************************************/ 
+.reveal {
+    opacity: 0; 
+}
+
+html {
+    scroll-behavior: smooth;
+}
